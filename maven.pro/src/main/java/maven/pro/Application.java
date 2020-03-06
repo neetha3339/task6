@@ -1,0 +1,23 @@
+package maven.pro;
+
+public class Application {
+	
+	    public static void main( String[] args )
+	    {
+	        CustomList<String> list = new CustomList();
+	        //Adding 10 elements as mentioned in the task
+	        list.add("Hello");
+	        list.add("World!");
+	        list.add("Elysian");
+	        list.add("Pivot");
+	        list.add("Prototype");
+	        list.add("GDD");
+	        list.add("ConceptArt");
+	        list.print();
+	        list.remove(2);
+	        list.print();
+	        
+	    }
+	}
+
+
